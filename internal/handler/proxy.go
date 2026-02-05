@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/SyNdicateFoundation/SteamDownloaderAPI/internal/steamcmd"
+	"github.com/IzomSoftware/SteamDownloaderAPI/internal/steamcmd"
 	"github.com/gin-gonic/gin"
 )
 
@@ -92,7 +92,7 @@ func (h *SteamDownloaderAPI) SteamProxyHandler(c *gin.Context) {
 		})
 
 		doc.Find(`span[class="valve_links"]`).Each(func(i int, s *goquery.Selection) {
-			s.AppendHtml(` |  <a style="color: #1497cb;font-weight: bold;font-size: medium;" href="https://github.com/SyNdicateFoundation/SteamDownloaderAPI" target="_blank">SteamDownloaderAPI GitHub</a>`)
+			s.AppendHtml(` |  <a style="color: #1497cb;font-weight: bold;font-size: medium;" href="https://github.com/IzomSoftware/SteamDownloaderAPI" target="_blank">SteamDownloaderAPI GitHub</a>`)
 		})
 
 		doc.Find(".subscribe[onclick*='SubscribeCollection']").Each(func(i int, s *goquery.Selection) {

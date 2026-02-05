@@ -2,7 +2,7 @@ package steamcmd
 
 import (
 	"fmt"
-	"github.com/SyNdicateFoundation/SteamDownloaderAPI/internal/util"
+	"github.com/IzomSoftware/SteamDownloaderAPI/internal/util"
 	"io"
 	"log"
 	"os"

@@ -1,4 +1,4 @@
-module github.com/SyNdicateFoundation/SteamDownloaderAPI
+module github.com/IzomSoftware/SteamDownloaderAPI
 
 go 1.22
 

@@ -3,8 +3,8 @@
 </h1>
 
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/SyNdicateFoundation/SteamDownloaderAPI)](https://goreportcard.com/report/github.com/SyNdicateFoundation/SteamDownloaderAPI)
-[![Go Build](https://github.com/SyNdicateFoundation/SteamDownloaderAPI/actions/workflows/go-build.yml/badge.svg)](https://github.com/SyNdicateFoundation/SteamDownloaderAPI/actions/workflows/go-build.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/IzomSoftware/SteamDownloaderAPI)](https://goreportcard.com/report/github.com/IzomSoftware/SteamDownloaderAPI)
+[![Go Build](https://github.com/IzomSoftware/SteamDownloaderAPI/actions/workflows/go-build.yml/badge.svg)](https://github.com/IzomSoftware/SteamDownloaderAPI/actions/workflows/go-build.yml)
 
 A powerful Go-based reverse proxy for the Steam Workshop that dynamically injects download buttons into workshop and collection pages, allowing you to download items directly using a backend `steamcmd` instance.
 
@@ -66,7 +66,7 @@ This is perfect for server administrators, content curators, or anyone who needs
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/SyNdicateFoundation/SteamDownloaderAPI.git
+    git clone https://github.com/IzomSoftware/SteamDownloaderAPI.git
     cd SteamDownloaderAPI
     ```
 

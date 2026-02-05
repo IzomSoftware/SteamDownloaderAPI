@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/SyNdicateFoundation/SteamDownloaderAPI/internal/steam"
-	"github.com/SyNdicateFoundation/SteamDownloaderAPI/internal/util"
+	"github.com/IzomSoftware/SteamDownloaderAPI/internal/steam"
+	"github.com/IzomSoftware/SteamDownloaderAPI/internal/util"
 	"github.com/gin-gonic/gin"
 	"github.com/schollz/progressbar/v3"
 )

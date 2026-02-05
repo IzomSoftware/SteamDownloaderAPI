@@ -9,8 +9,8 @@ import (
 	_ "embed"
 	"os"
 
-	"github.com/SyNdicateFoundation/SteamDownloaderAPI/internal/handler"
-	"github.com/SyNdicateFoundation/SteamDownloaderAPI/internal/steamcmd"
+	"github.com/IzomSoftware/SteamDownloaderAPI/internal/handler"
+	"github.com/IzomSoftware/SteamDownloaderAPI/internal/steamcmd"
 	"github.com/gin-gonic/gin"
 )
 
